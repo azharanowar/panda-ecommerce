@@ -1,0 +1,40 @@
+/* Header Section Style Start... */
+
+.search-input-field {
+    border-radius: 50px 0 0 50px !important;
+}
+
+.search-btn {
+    border-radius: 0 50px 50px 0 !important;
+}
+
+.text {
+    border: 1px solid lightgray;
+    border-radius: 50px;
+}
+
+/* Carousel slider start... */
+
+.carousel-items-one {
+    background-color: #FEEAE9;
+}
+
+.carousel-items-one .price {
+    color: #FF136F
+}
+
+.carousel-items-one .price {
+    color: #FF136F
+}
+
+.carousel-items-one .buy-now-btn {
+    background-image: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border: none;
+}
+
+/* Carousel slider end... */
+
+
+
+
+/* Header Section Style End... */

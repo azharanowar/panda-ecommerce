@@ -12,49 +12,50 @@
     
 <header>
     <div class="container">
-
         <!-- Nav Menu Start... -->
-
-        <div class="row">
-            <div class="col-md-12">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container-fluid d-flex justify-content-between">
-                        <div class="logo-section">
-                            <a class="navbar-brand" href="#">
-                                <img src="assets/images/logo.png" class="img-fluid" alt="Logo">
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="row py-4">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid d-flex justify-content-between">
+                            <div class="logo-section w-sm-auto w-25">
+                                <a class="navbar-brand" href="index.html">
+                                    <img src="assets/images/logo.png" class="img-fluid" alt="Logo">
+                                </a>
+                            </div>
+                            <div class="searchbar-section mx-auto d-sm-flex d-none">
+                                <form class="" role="search">
+                                    <div class="input-group text">
+                                        <input type="text" class="search-input-field form-control border-0" name="search-bar" id="searchBar" placeholder="Search here anything...">
+                                        <input type="submit" class="search-btn btn btn-secondary" value="Search">
+                                    </div>
+                                </form>
+                            </div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
+                            <div class="collapse navbar-collapse d-md-flex justify-content-end" id="mainMenu">
+                                <ul class="navbar-nav mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Products</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="search-form-section">
-                            <form class="d-flex" role="search">
-                                <div class="input-group">
-                                    <input type="text" class="form-control rounded-start" name="search-bar" id="searchBar" placeholder="Search here anything...">
-                                    <input type="submit" class="btn btn-secondary rounded-end" value="Search">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="main-menu-section collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
-        </div>
-
         <!-- Nav Menu End... -->
 
-
         <!-- Hero Carousel Slider Start... -->
-
         <div class="row">
             <div class="col-md-12">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -64,9 +65,25 @@
                         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/images/banner-images/headphone.png" class="d-block w-100" alt="...">
+
+                        <div class="carousel-item carousel-items-one rounded-4 active">
+                            <div class="row align-items-center justify-content-around py-5 px-5">
+                                <div class="col-sm-12 col-md-6">
+                                    <h2 class="fs-1 fw-bold">Mi LED TV 4A PRO 32</h2>
+                                    <p class="fw-normal text-muted">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                                    <h3 class="fs-2 fw-semibold price">$1289</h3>
+                                    <a href="#" class="text-white">
+                                        <button type="button" class="buy-now-btn btn rounded-2 text-white text-uppercase px-4 py-2">
+                                            Buy Now <span><i class="fa-solid fa-arrow-right-long ps-2"></i></span>
+                                        </button>
+                                    </a>
+                                </div>
+                                <div class="col-sm-12 col-md-6">
+                                    <img src="assets/images/banner-images/tv.png" class="img-fluid d-block w-75 ms-auto" alt="Header Carousel Slider Image">
+                                </div>
+                            </div>
                         </div>
+
                         <div class="carousel-item">
                             <img src="..." class="d-block w-100" alt="...">
                         </div>
@@ -102,6 +119,7 @@
 </section>
 
 
+<script src="https://kit.fontawesome.com/cdf319e764.js" crossorigin="anonymous"></script>
 <script src="assets/js/bootstrap.bundle.min.js" rel="script"></script>
 </body>
 </html>
