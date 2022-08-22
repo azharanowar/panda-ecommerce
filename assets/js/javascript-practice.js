@@ -54,4 +54,15 @@ document.getElementById("newsletterField").addEventListener('keyup', function() 
     } else {
         newsletterBtn.disabled = true;
     }
+    
 })
+
+
+
+// ৮. (অপশনাল) একটা মজার চ্যালেঞ্জ। কোন একটা ইমেজ এর উপরে mouseenter করলে সেই ইমেজটা চেইঞ্জ হয়ে যাবে। একটু গুগলে সার্চ দিয়ে দেখো। জিনিসটা কিভাবে করা যেতে পারে। 
+
+document.getElementById("shoesOneImg").addEventListener('mouseenter', function(event) {
+    const imgOldUrl = event.target.getAttribute('src');
+    const imgNewUrl = imgOldUrl.replace('1', '3');
+    event.target.setAttribute('src', imgNewUrl);
+});
