@@ -34,4 +34,10 @@ function watchCategory() {
 
 // ৬. এইবার নতুন করে সবগুলা buy now বাটনে এমন একটা ইভেন্ট হ্যান্ডলার যোগ করো। যাতে যেকোন একটা buy now বাটনে চাপ দিলে সেটা ওয়েবসাইট থেকে রিমুভ হয়ে যায়। একটু চিন্তা করে করার চেষ্টা করো। 
 
-
+const buttons = document.getElementsByClassName('btn');
+for ( let button of buttons ) {
+    button.addEventListener('click', function(event) {
+        // event.target.parentNode.removeChild(event.target); // Delete button by clicking.
+        event.target.style.display = 'none'; // Hiding button by clicking.
+    });
+}
