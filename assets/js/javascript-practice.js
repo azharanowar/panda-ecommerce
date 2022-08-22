@@ -21,3 +21,17 @@ const cards = document.querySelectorAll(".card");
 for ( let card of cards ) {
     card.classList.add('border-radius-30');
 }
+
+
+
+// ৫. কোন একটা ফাংশন লিখো। সেটার ভিতরে কনসোল লগ হবে। এবং সেই ফাংশন টা ক্লিক হ্যান্ডলার হিসেবে কোন একটা বাটনে যোগ করো 
+
+function watchCategory() {
+    console.log("Hello from watch category!");
+}
+
+
+
+// ৬. এইবার নতুন করে সবগুলা buy now বাটনে এমন একটা ইভেন্ট হ্যান্ডলার যোগ করো। যাতে যেকোন একটা buy now বাটনে চাপ দিলে সেটা ওয়েবসাইট থেকে রিমুভ হয়ে যায়। একটু চিন্তা করে করার চেষ্টা করো। 
+
+
