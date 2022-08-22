@@ -66,3 +66,15 @@ document.getElementById("shoesOneImg").addEventListener('mouseenter', function(e
     const imgNewUrl = imgOldUrl.replace('1', '3');
     event.target.setAttribute('src', imgNewUrl);
 });
+
+
+
+
+// ৯. (অপশনাল) নিচের যে LET'S STAY IN TOUCH আছে সেখানে কোন খালি জায়গায় ডাবল ক্লিক করলে ঐটার পিছনের কালার চেইঞ্জ হয়ে যাবে। 
+
+document.getElementById("newsletterRow").addEventListener('dblclick', function(event) {
+    if ( event.target.id === 'newsletterRow' ) {
+        document.getElementById("newsletterRow").style.backgroundColor = '#b9d4ff';
+    }
+});
+
